@@ -4,11 +4,9 @@ import {
   Home,
   Eye,
   User,
-  Users,
   Award,
   FileText,
   Globe,
-  Newspaper,
   Mail,
   ChevronRight,
 } from 'lucide-react';
@@ -18,11 +16,9 @@ const routes = [
   { title: 'Home', path: '/maritime-foundation', icon: Home },
   { title: 'Vision & Mission', path: '/maritime-foundation/vision-mission', icon: Eye },
   { title: 'Dr. J. Ramachandran – A Maritime Legend', path: '/maritime-foundation/legend', icon: User },
-  { title: 'Patrons', path: '/maritime-foundation/patrons', icon: Users },
-  { title: 'Awards and Recognitions', path: '/maritime-foundation/awards', icon: Award },
+  { title: 'AMET Global Maritime Awards (AGMA)', path: '/maritime-foundation/awards', icon: Award },
   { title: 'Application and Nomination Process', path: '/maritime-foundation/application', icon: FileText },
-  { title: 'AMET Global Maritime Summit 2025', path: '/maritime-foundation/agms-2025', icon: Globe },
-  { title: 'News and Events', path: '/maritime-foundation/news-events', icon: Newspaper },
+  { title: 'AMET Global Maritime Summit (AGMS)', path: '/maritime-foundation/agms-2025', icon: Globe },
   { title: 'Contact Us', path: '/maritime-foundation/contact', icon: Mail },
 ];
 

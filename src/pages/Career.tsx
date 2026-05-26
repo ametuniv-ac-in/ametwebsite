@@ -27,7 +27,7 @@ const Career = () => {
             <h2 className="text-2xl font-semibold text-aemet-navy mb-6">Current Vacancies</h2>
             
             <div className="space-y-6">
-              {/* MoES-DOM Technical Assistant Vacancy */}
+              {/* MoES-DOM Project Associate – I Vacancy */}
               <Card className="border-aemet-blue/20 hover:shadow-lg transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="space-y-6">
@@ -39,20 +39,23 @@ const Career = () => {
                       <div className="flex-grow">
                         <div className="flex flex-wrap items-center gap-2 mb-2">
                           <h3 className="text-xl font-semibold text-aemet-navy">
-                            MoES-DOM Technical Assistant
+                            Project Associate – I (MoES-DOM)
                           </h3>
                           <span className="bg-red-100 text-red-700 text-xs font-semibold px-2 py-1 rounded">
-                            Last Date: Feb 20, 2026
+                            Last Date: 16.05.2026
+                          </span>
+                          <span className="bg-amber-100 text-amber-700 text-xs font-semibold px-2 py-1 rounded">
+                            Walk-in: 19.05.2026
                           </span>
                         </div>
                         <p className="text-sm text-aemet-blue font-medium mb-2">
                           Department of Marine Biotechnology
                         </p>
                         <p className="text-gray-600 mb-2">
-                          Project: "Sub-Sea Bioinvasion and Its Ecological Impacts" funded by Ministry of Earth Sciences - Deep Ocean Mission
+                          Project: "Exploring Marine Bioresources as Potential Natural Antifoulants: An In-depth Study on Secondary Metabolites of Marine Actinomycetes" — funded by MoES – Deep Ocean Mission
                         </p>
                         <p className="text-gray-700 font-medium">
-                          Salary: Rs. 20,000/- per month (consolidated)
+                          Fellowship: Rs. 25,000/- per month + 24% HRA
                         </p>
                       </div>
                     </div>
@@ -60,14 +63,20 @@ const Career = () => {
                     {/* Action Buttons */}
                     <div className="flex flex-wrap gap-3">
                       <Button asChild className="bg-aemet-blue hover:bg-aemet-navy transition-colors">
-                        <a href="/career/moes-dom-technical-assistant">
+                        <a href="/career/moes-dom-project-associate">
                           View Details
                         </a>
                       </Button>
                       <Button asChild variant="outline">
-                        <a href="/documents/AMET-MOES-DOM-Project-Application.doc" download>
+                        <a href="/documents/Vacancy-Project-Associate-I-MOES-DOM.pdf" target="_blank" rel="noopener noreferrer">
+                          <FileText className="h-4 w-4 mr-2" />
+                          View Full Advertisement
+                        </a>
+                      </Button>
+                      <Button asChild variant="outline">
+                        <a href="/documents/Vacancy-Project-Associate-I-MOES-DOM.pdf" download>
                           <Download className="h-4 w-4 mr-2" />
-                          Download Application Form
+                          Download PDF
                         </a>
                       </Button>
                     </div>

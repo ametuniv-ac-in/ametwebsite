@@ -8,25 +8,25 @@ const MandatoryDisclosure = () => {
       category: "Accreditation & Certificates",
       icon: Award,
       items: [
-        { title: "NBA Certificate", url: "https://docs.ametuniv.ac.in/mandatory-disclosure/nba-Certificate.pdf" },
+        { title: "NBA Certificate", url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/nba-Certificate.pdf" },
         {
           title: "NBA Certificate for Engineering Programmes",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/nba-certificate-engg.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/nba-certificate-engg.pdf",
         },
         {
           title: "NBA Certificate for MBA Programme",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/nba-certificate-mba.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/nba-certificate-mba.pdf",
         },
         {
           title: "NAAC Certificate of Accreditation",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/naac-cycle2.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/naac-cycle2.pdf",
         },
-        { title: "CIP Grade Certificate", url: "https://docs.ametuniv.ac.in/mandatory-disclosure/cip-grade.pdf" },
+        { title: "CIP Grade Certificate", url: "/pdfs/cip-certificate-pre-sea-initial.pdf" },
         {
           title: "SIRO Recognition Certificate",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/siro-recognition-certificate.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/siro-recognition-certificate.pdf",
         },
-        { title: "DSIR Registration", url: "https://docs.ametuniv.ac.in/mandatory-disclosure/dsir_registration.pdf" },
+        { title: "DSIR Registration", url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/dsir_registration.pdf" },
         { title: "ISO Certificate", url: "/pdfs/iso-certificate-valid-till-may-2028.pdf" },
       ],
     },
@@ -42,35 +42,35 @@ const MandatoryDisclosure = () => {
         },
         {
           title: "AICTE Extension of Approval 2024-25",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/aicte-eoa-2024-25.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/aicte-eoa-2024-25.pdf",
         },
         {
           title: "AICTE Extension of Approval 2023-24",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/aicte-eoa-2023-24.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/aicte-eoa-2023-24.pdf",
         },
         {
           title: "AICTE Extension of Approval 2022-23",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/aicte-eoa-2022-23.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/aicte-eoa-2022-23.pdf",
         },
         {
           title: "AICTE Extension of Approval 2021-22",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/aicte-eoa-2021-22.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/aicte-eoa-2021-22.pdf",
         },
         {
           title: "AICTE Extension of Approval 2020-21",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/aicte-eoa-2020-21.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/aicte-eoa-2020-21.pdf",
         },
         {
           title: "AICTE Extension of Approval 2019-20",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/aicte-eoa-2019-20.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/aicte-eoa-2019-20.pdf",
         },
         {
           title: "AICTE Letter of Approval 2018-19",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/aicte-eoa-2018-19.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/aicte-eoa-2018-19.pdf",
         },
         {
           title: "DGS intake approval latest",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/dgs-intake-approval.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/dgs-intake-approval.pdf",
         },
       ],
     },
@@ -80,7 +80,7 @@ const MandatoryDisclosure = () => {
       category: "Financial & Legal Documents",
       icon: FileText,
       items: [
-        { title: "MOA 2023", url: "https://docs.ametuniv.ac.in/mandatory-disclosure/moa-2023.pdf" },
+        { title: "MOA 2023", url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/moa-2023.pdf" },
         {
           title: "Audited Statement of Account - Last Five Years",
           url: "/disclosures/audited-statements",
@@ -104,19 +104,19 @@ const MandatoryDisclosure = () => {
       items: [
         {
           title: "UGC - Evaluation Report 2020",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/ugc-evaluation_report-2020.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/ugc-evaluation_report-2020.pdf",
         },
         {
           title: "MHRD approval for Deemed to be University",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/ahrd_approval_for_deemed_status.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/ahrd_approval_for_deemed_status.pdf",
         },
         {
           title: "MHRD Notification latest",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/mhrd_notification_latest.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/mhrd_notification_latest.pdf",
         },
         {
           title: "UGC approval for B.Voc.",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/ugc_approval-bvoc.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/ugc_approval-bvoc.pdf",
         },
       ],
     },
@@ -128,20 +128,20 @@ const MandatoryDisclosure = () => {
       items: [
         {
           title: "FFCBCS Regulation 2022",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/ffcbcs-regulation-2022.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/ffcbcs-regulation-2022.pdf",
         },
         {
           title: "CBCS Regulations 2018",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/cbcs_regulations_2018.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/cbcs_regulations_2018.pdf",
         },
-        { title: "CBCS Handbook", url: "https://docs.ametuniv.ac.in/mandatory-disclosure/cbcs-handbook.pdf" },
+        { title: "CBCS Handbook", url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/cbcs-handbook.pdf" },
         {
           title: "Outcome Based Education",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/outcome-based-education.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/outcome-based-education.pdf",
         },
         {
           title: "Curriculum and Syllabus Revision",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/curriculum_and_syllabus_revision.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/curriculum_and_syllabus_revision.pdf",
         },
         {
           title: "CBCS Regulations 2023",
@@ -157,27 +157,27 @@ const MandatoryDisclosure = () => {
       items: [
         {
           title: "Implementation Quality Mandate Objectives",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/implementation_quality_mandate_objectives.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/implementation_quality_mandate_objectives.pdf",
         },
         {
           title: "Quality Mandate Compliance of 10 initiatives",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/quality_mandate_compliance_of_10_initiatives.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/quality_mandate_compliance_of_10_initiatives.pdf",
         },
         {
           title: "Major Administrative Committees",
           url: "/pdfs/major-administrative-committee.pdf",
         },
-        { title: "AMET Vision 2020", url: "https://docs.ametuniv.ac.in/mandatory-disclosure/amet-vision-2020.pdf" },
-        { title: "AMET Vision 2025", url: "https://docs.ametuniv.ac.in/mandatory-disclosure/amet-vision-2025.pdf" },
-        { title: "Policies of AMET", url: "https://docs.ametuniv.ac.in/mandatory-disclosure/policies-of-amet.pdf" },
+        { title: "AMET Vision 2020", url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/amet-vision-2020.pdf" },
+        { title: "AMET Vision 2025", url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/amet-vision-2025.pdf" },
+        { title: "Policies of AMET", url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/policies-of-amet.pdf" },
         {
           title: "AMET Rules and Regulations",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/rules-regulations.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/rules-regulations.pdf",
         },
-        { title: "Service Rules", url: "https://docs.ametuniv.ac.in/mandatory-disclosure/service-rules.pdf" },
+        { title: "Service Rules", url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/service-rules.pdf" },
         {
           title: "Decentralization and Participative Management",
-          url: "https://docs.ametuniv.ac.in/mandatory-disclosure/decentralization-participative-management.pdf",
+          url: "https://www.ametuniv.ac.in/pdfs/mandatory-disclosure/decentralization-participative-management.pdf",
         },
         { title: "Organogram of AMET", url: "/pdfs/organogram-of-amet.pdf" },
       ],

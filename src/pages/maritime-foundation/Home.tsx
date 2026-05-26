@@ -1,26 +1,27 @@
 import React from 'react';
 import MaritimeFoundationLayout from '@/components/maritime-foundation/MaritimeFoundationLayout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Eye, Download } from 'lucide-react';
 
 const Home: React.FC = () => {
   return (
     <MaritimeFoundationLayout title="Home">
       <div className="space-y-8 text-gray-700 leading-relaxed">
         <section>
-          <h3 className="text-xl font-semibold text-aemet-navy mb-3">Welcome Message</h3>
-          <p className="mb-4">
+          <p className="text-lg font-semibold text-aemet-navy mb-4">
             Welcome to the Dr. J. Ramachandran Maritime Foundation, Chennai, India.
           </p>
           <p className="mb-4">
             The Foundation has been established to honour the visionary legacy of Dr. Naesey J. Ramachandran,
-            Founder-Chancellor of AMET University and one of the pioneers of maritime education in India.
-            The Foundation serves as a global platform to promote maritime excellence, innovation,
-            sustainability, leadership and international collaboration.
+            Founder-Chancellor of AMET University and one of the pioneers of maritime education in India. The
+            Foundation serves as a global platform to promote maritime excellence, innovation, sustainability,
+            leadership and international collaboration.
           </p>
           <p>
-            Through its flagship initiatives — the AMET Global Maritime Summit (AGMS) and AMET Global
-            Maritime Awards (AGMA) — the Foundation brings together maritime leaders, academicians,
-            policymakers, researchers, seafarers and industry professionals from across the world.
+            Through its flagship initiatives — the AMET Global Maritime Summit (AGMS) and AMET Global Maritime
+            Awards (AGMA) — the Foundation brings together maritime leaders, academicians, policymakers,
+            researchers, seafarers and industry professionals from across the world.
           </p>
         </section>
 
@@ -59,9 +60,36 @@ const Home: React.FC = () => {
               <CardHeader>
                 <CardTitle className="text-aemet-blue">AMET Global Maritime Summit (AGMS)</CardTitle>
               </CardHeader>
-              <CardContent className="text-sm text-gray-700">
-                AGMS addresses contemporary themes such as sustainability, digital transformation, maritime
-                education, and ocean governance. AGMS 2025 witnessed 1200+ delegates from 15+ countries.
+              <CardContent className="text-sm text-gray-700 space-y-4">
+                <p>
+                  AGMS addresses contemporary themes such as Maritime Sustainability 2050: Artificial
+                  Intelligence, Green Shipbuilding and Autonomous Ocean Transport. AGMS 2026 witnessed
+                  1200+ delegates from 15+ countries.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <Button
+                    asChild
+                    variant="outline"
+                    size="sm"
+                    className="gap-2"
+                  >
+                    <a
+                      href="/documents/Broucher-Global-Maritime-Summit.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Eye className="h-4 w-4" /> View PDF
+                    </a>
+                  </Button>
+                  <Button asChild variant="outline" size="sm" className="gap-2">
+                    <a
+                      href="/documents/Broucher-Global-Maritime-Summit.pdf"
+                      download
+                    >
+                      <Download className="h-4 w-4" /> Download PDF
+                    </a>
+                  </Button>
+                </div>
               </CardContent>
             </Card>
           </div>

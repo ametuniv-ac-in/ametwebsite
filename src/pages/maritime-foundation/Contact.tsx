@@ -9,10 +9,10 @@ const Contact: React.FC = () => {
         <p>For any inquiries, please contact:</p>
         <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
           <h3 className="text-lg font-semibold text-aemet-navy">Col. Dr. G. Thiruvasagam</h3>
-          <p className="text-sm text-gray-600">Provost, AMET University</p>
-          <p className="text-sm text-gray-600 mt-1">&amp; Member Secretary</p>
+          <p className="text-sm text-gray-600">Provost, AMET University &amp; Member Secretary</p>
           <p className="text-sm text-gray-600">Dr. J. Ramachandran Maritime Foundation</p>
-          <p className="text-sm text-gray-600 mb-4">Chennai, India</p>
+          <p className="text-sm text-gray-600">135, East Coast Road</p>
+          <p className="text-sm text-gray-600 mb-4">Kanathur, Chennai, India</p>
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2">
               <Mail className="h-4 w-4 text-aemet-blue" />

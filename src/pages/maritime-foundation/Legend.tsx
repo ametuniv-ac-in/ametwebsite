@@ -1,5 +1,6 @@
 import React from 'react';
 import MaritimeFoundationLayout from '@/components/maritime-foundation/MaritimeFoundationLayout';
+import drRamachandran from '@/assets/maritime-foundation/dr-ramachandran.png';
 
 const Legend: React.FC = () => {
   const achievements = [
@@ -23,6 +24,11 @@ const Legend: React.FC = () => {
   return (
     <MaritimeFoundationLayout title="Dr. J. Ramachandran – A Maritime Legend">
       <div className="space-y-6 text-gray-700 leading-relaxed">
+        <img
+          src={drRamachandran}
+          alt="Dr. J. Ramachandran, Founder-Chancellor of AMET"
+          className="float-left mr-6 mb-4 w-48 md:w-56 h-auto rounded-lg shadow-md bg-gray-50 object-contain"
+        />
         <p>
           Dr. J. Ramachandran, Founder-Chancellor of Academy of Maritime Education and Training, is widely
           recognized for transforming maritime education in India through visionary leadership, global

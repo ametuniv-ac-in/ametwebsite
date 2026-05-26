@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '@/components/Layout';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { FileDown, Calendar, GraduationCap, Users } from 'lucide-react';
+import { FileDown, Calendar, GraduationCap, Users, Briefcase } from 'lucide-react';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -13,6 +13,24 @@ import {
 } from "@/components/ui/breadcrumb";
 
 const updates = [
+  {
+    title: 'Pre-PhD Thesis Presentation - Mr. A. Vidya (22.05.2026)',
+    category: 'Pre-PhD',
+    icon: Users,
+    href: '/documents/pre-phd-thesis-presentation-a-vidya.pdf',
+  },
+  {
+    title: 'Project Associate – I Vacancy (MoES-DOM) - Dept. of Marine Biotechnology',
+    category: 'Career',
+    icon: Briefcase,
+    href: '/career/moes-dom-project-associate',
+  },
+  {
+    title: 'Pre-PhD Thesis Presentation - Mr. Samson Joseph (14.05.2026)',
+    category: 'Pre-PhD',
+    icon: Users,
+    href: '/documents/pre-phd-thesis-presentation-samson-joseph.pdf',
+  },
   {
     title: 'Model Examinations – April 2026 for all UG and PG Programs',
     category: 'Examinations',

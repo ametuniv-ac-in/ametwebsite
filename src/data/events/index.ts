@@ -4,6 +4,52 @@ import { GalleryEvent } from './types';
 export const galleryEvents: GalleryEvent[] = [
 
     {
+        id: 'digital-oceans-conf-14may2026',
+        title: 'National Conference on Digital Oceans: Transforming Marine Exploration with AI, organized by Dept. of EEE, on 14th & 15th May 2026',
+        date: '2026-05-14',
+        imageUrl: '/events/digital-oceans-conf-14may2026-1.jpg',
+        images: [
+            '/events/digital-oceans-conf-14may2026-1.jpg','/events/digital-oceans-conf-14may2026-2.jpg','/events/digital-oceans-conf-14may2026-3.jpg','/events/digital-oceans-conf-14may2026-4.jpg','/events/digital-oceans-conf-14may2026-5.jpg','/events/digital-oceans-conf-14may2026-6.jpg','/events/digital-oceans-conf-14may2026-7.jpg','/events/digital-oceans-conf-14may2026-8.jpg','/events/digital-oceans-conf-14may2026-9.jpg','/events/digital-oceans-conf-14may2026-10.jpg','/events/digital-oceans-conf-14may2026-11.jpg','/events/digital-oceans-conf-14may2026-12.jpg','/events/digital-oceans-conf-14may2026-13.jpg','/events/digital-oceans-conf-14may2026-14.jpg','/events/digital-oceans-conf-14may2026-15.jpg','/events/digital-oceans-conf-14may2026-16.jpg','/events/digital-oceans-conf-14may2026-17.jpg','/events/digital-oceans-conf-14may2026-18.jpg'
+        ]
+    },
+    {
+        id: 'faculty-staff-induction-12may2026',
+        title: 'Induction Programme for Faculty and Staff, on 12th May 2026',
+        date: '2026-05-12',
+        imageUrl: '/events/faculty-staff-induction-12may2026-1.jpg',
+        images: [
+            '/events/faculty-staff-induction-12may2026-1.jpg','/events/faculty-staff-induction-12may2026-2.jpg','/events/faculty-staff-induction-12may2026-3.jpg','/events/faculty-staff-induction-12may2026-4.jpg','/events/faculty-staff-induction-12may2026-5.jpg','/events/faculty-staff-induction-12may2026-6.jpg','/events/faculty-staff-induction-12may2026-7.jpg','/events/faculty-staff-induction-12may2026-8.jpg','/events/faculty-staff-induction-12may2026-9.jpg','/events/faculty-staff-induction-12may2026-10.jpg','/events/faculty-staff-induction-12may2026-11.jpg'
+        ]
+    },
+    {
+        id: 'beach-cleaning-gandhi-jayanthi-10may2026',
+        title: 'Inauguration of the Beach Cleaning, Gandhi Jayanthi Mega Community Outreach Programme, on 10th May 2026',
+        date: '2026-05-10',
+        imageUrl: '/events/beach-cleaning-gandhi-jayanthi-10may2026-1.jpg',
+        images: [
+            '/events/beach-cleaning-gandhi-jayanthi-10may2026-1.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-2.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-3.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-4.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-5.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-6.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-7.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-8.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-9.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-10.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-11.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-12.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-13.jpg','/events/beach-cleaning-gandhi-jayanthi-10may2026-14.jpg'
+        ]
+    },
+    {
+        id: 'time-management-workshop-6may2026',
+        title: 'Workshop on Time Management and Responsibility, organized by Dept. of Marine Engineering and Internal Quality Assurance Cell (IQAC), on 6th May 2026',
+        date: '2026-05-06',
+        imageUrl: '/events/time-management-workshop-6may2026-1.jpg',
+        images: [
+            '/events/time-management-workshop-6may2026-1.jpg','/events/time-management-workshop-6may2026-2.jpg','/events/time-management-workshop-6may2026-3.jpg','/events/time-management-workshop-6may2026-4.jpg','/events/time-management-workshop-6may2026-5.jpg','/events/time-management-workshop-6may2026-6.jpg','/events/time-management-workshop-6may2026-7.jpg'
+        ]
+    },
+    {
+        id: 'workplace-ethics-workshop-6may2026',
+        title: 'Workshop on Workplace Ethics, Cleanliness, and Dignity of Labour, organized by Dept. of Marine Engineering and Internal Quality Assurance Cell (IQAC), on 6th May 2026',
+        date: '2026-05-06',
+        imageUrl: '/events/workplace-ethics-workshop-6may2026-1.jpg',
+        images: [
+            '/events/workplace-ethics-workshop-6may2026-1.jpg','/events/workplace-ethics-workshop-6may2026-2.jpg','/events/workplace-ethics-workshop-6may2026-3.jpg','/events/workplace-ethics-workshop-6may2026-4.jpg'
+        ]
+    },
+
+    {
         id: 'foundation-for-inclusive-learning-5feb26',
         title: 'Mother Tongue: A Foundation for Inclusive Learning, organized by Dept. of Mechanical Engineering and Cultural Club, on 5th February 2026',
         date: '2026-01-22',

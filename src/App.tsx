@@ -159,6 +159,7 @@ import NIRF from './pages/NIRF';
 import ARIIA from './pages/ARIIA';
 import Career from './pages/Career';
 import MoesDomTechnicalAssistant from './pages/career/MoesDomTechnicalAssistant';
+import MoesDomProjectAssociate from './pages/career/MoesDomProjectAssociate';
 import AdmissionsAnnouncement from './pages/admissions/Announcement';
 import LatestUpdates from './pages/LatestUpdates';
 import RTI from './pages/RTI';
@@ -182,11 +183,9 @@ import Accessibility from './pages/Accessibility';
 import MFHome from './pages/maritime-foundation/Home';
 import MFVisionMission from './pages/maritime-foundation/VisionMission';
 import MFLegend from './pages/maritime-foundation/Legend';
-import MFPatrons from './pages/maritime-foundation/Patrons';
 import MFAwards from './pages/maritime-foundation/Awards';
 import MFApplication from './pages/maritime-foundation/Application';
 import MFAgms2025 from './pages/maritime-foundation/Agms2025';
-import MFNewsEvents from './pages/maritime-foundation/NewsEvents';
 import MFContact from './pages/maritime-foundation/Contact';
 
 function App() {
@@ -363,6 +362,7 @@ function App() {
         <Route path="/ariia" element={<ARIIA />} />
         <Route path="/career" element={<Career />} />
         <Route path="/career/moes-dom-technical-assistant" element={<MoesDomTechnicalAssistant />} />
+        <Route path="/career/moes-dom-project-associate" element={<MoesDomProjectAssociate />} />
         <Route path="/latest-updates" element={<LatestUpdates />} />
         <Route path="/online-payment-details" element={<OnlinePaymentDetails />} />
         <Route path="/rti" element={<RTI />} />
@@ -386,11 +386,9 @@ function App() {
         <Route path="/maritime-foundation" element={<MFHome />} />
         <Route path="/maritime-foundation/vision-mission" element={<MFVisionMission />} />
         <Route path="/maritime-foundation/legend" element={<MFLegend />} />
-        <Route path="/maritime-foundation/patrons" element={<MFPatrons />} />
         <Route path="/maritime-foundation/awards" element={<MFAwards />} />
         <Route path="/maritime-foundation/application" element={<MFApplication />} />
         <Route path="/maritime-foundation/agms-2025" element={<MFAgms2025 />} />
-        <Route path="/maritime-foundation/news-events" element={<MFNewsEvents />} />
         <Route path="/maritime-foundation/contact" element={<MFContact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

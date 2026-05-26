@@ -24,10 +24,16 @@ const ODLMandatoryDisclosure = () => {
               <h2 className="text-2xl font-bold">Important Documents</h2>
             </div>
           </div>
-          <div className="p-6">
+          <div className="p-6 space-y-3">
             <a href="/pdfs/Public_Notice_by_UGC-DEB.pdf" target="_blank" rel="noopener noreferrer" className="p-4 bg-red-50 rounded-lg block hover:bg-red-100 transition-colors">
               <h3 className="font-semibold text-aemet-navy mb-2 inline-flex items-center gap-2"><FileText className="h-4 w-4" />Public Notice by UGC-DEB</h3>
               <p className="text-gray-600 text-sm">Official notification from UGC Distance Education Bureau</p>
+            </a>
+            <a href="/pdfs/CDOE_Application_Renewal_ODL_OL_2026-27.pdf" target="_blank" rel="noopener noreferrer" className="p-4 bg-red-50 rounded-lg block hover:bg-red-100 transition-colors">
+              <h3 className="font-semibold text-aemet-navy inline-flex items-center gap-2"><FileText className="h-4 w-4" />CDOE Application for the Renewal of ODL/OL Programs for 2026-27</h3>
+            </a>
+            <a href="/pdfs/Joint_Declaration.pdf" target="_blank" rel="noopener noreferrer" className="p-4 bg-red-50 rounded-lg block hover:bg-red-100 transition-colors">
+              <h3 className="font-semibold text-aemet-navy inline-flex items-center gap-2"><FileText className="h-4 w-4" />Joint Declaration</h3>
             </a>
           </div>
         </div>

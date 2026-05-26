@@ -6,6 +6,14 @@ import { FileText, Download, Eye } from 'lucide-react';
 
 const announcements = [
   {
+    title: 'Notification for Pre-PhD Thesis Presentation of Mr. A. Vidya',
+    href: '/documents/pre-phd-thesis-presentation-a-vidya.pdf',
+  },
+  {
+    title: 'Notification for Pre-PhD Thesis Presentation of Mr. Samson Joseph',
+    href: '/documents/pre-phd-thesis-presentation-samson-joseph.pdf',
+  },
+  {
     title: 'Time Tables of End Semester (Arrear) Examinations – May 2026',
     href: '/documents/ESE_ARREAR_TIME_TABLE_MAY_2026_OVERALL.pdf',
   },

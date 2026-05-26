@@ -216,7 +216,7 @@ const RankingAccreditation = () => {
                     </h2>
                   </div>
                   <p className="text-gray-700">
-                    AMET has been awarded the ISO 9001:2015 certification by Det Norske Veritas (DNV), valid from 29th May 2022 to 28th May 2025, demonstrating our commitment to quality management systems and continuous improvement.
+                    AMET has been awarded the ISO 9001:2015 certification by Det Norske Veritas (DNV), valid from 29th May 2025 to 28th May 2028, demonstrating our commitment to quality management systems and continuous improvement.
                   </p>
                 </div>
               </div>

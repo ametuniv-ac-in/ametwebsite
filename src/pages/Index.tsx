@@ -11,6 +11,7 @@ import LatestUpdatesSection from '@/components/LatestUpdatesSection';
 
 import StudentStories from '@/components/StudentStories';
 import AdmissionsFloatingCard from '@/components/AdmissionsFloatingCard';
+import MaritimeFoundationFloatingCard from '@/components/MaritimeFoundationFloatingCard';
 import ImpactNumbers from '@/components/ImpactNumbers';
 
 
@@ -146,6 +147,9 @@ const Index = () => {
       
       {/* Floating Admissions Card */}
       <AdmissionsFloatingCard />
+
+      {/* Floating Maritime Foundation Awards Widget */}
+      <MaritimeFoundationFloatingCard />
     </Layout>
   );
 };
