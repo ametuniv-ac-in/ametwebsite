@@ -1,4 +1,4 @@
-import { Landmark, Briefcase } from "lucide-react";
+import { Landmark, Briefcase, UtensilsCrossed } from "lucide-react";
 import { Department } from "./types";
 
 export const managementDepartments: Department[] = [
@@ -251,6 +251,112 @@ export const managementDepartments: Department[] = [
           "Demonstrate knowledge of e-commerce platforms",
           "Apply digital business principles effectively",
           "Develop practical digital marketing skills"
+        ],
+        curriculumLink: '#'
+      }
+    ]
+  }
+  ,
+  {
+    id: "hotel-management",
+    name: "Department of Hotel Management & Catering Science",
+    description: "Offering industry-focused programmes in hotel management, catering science, and marine catering — preparing professionals for hospitality, cruise, airline, and global catering careers.",
+    icon: UtensilsCrossed,
+    facilities: [
+      { name: "Training Kitchen & Bakery Lab", description: "Modern kitchen and bakery facility for food production and confectionery training" },
+      { name: "Food & Beverage Service Lab", description: "Mock restaurant for service operations and hospitality etiquette training" },
+      { name: "Front Office & Housekeeping Lab", description: "Practical facility for front office operations and housekeeping management" }
+    ],
+    research_areas: [
+      "Hospitality Operations",
+      "Food Production & Culinary Sciences",
+      "Marine & Cruise Catering",
+      "Customer Service Excellence"
+    ],
+    collaborations: [
+      "Leading Hotels & Resorts",
+      "Cruise Lines",
+      "Airline Catering Services",
+      "Hospitality Industry Partners"
+    ],
+    certifications: [
+      "UGC Recognition",
+      "Industry-aligned Hospitality Training",
+      "STCW Safety Training (Marine Catering)"
+    ],
+    courses: [
+      {
+        id: "bsc-hotel-management",
+        name: "B.Sc. Hotel Management and Catering Science",
+        category: "UG",
+        duration: "3 Years",
+        admission: "Merit-based",
+        careerPath: "Hotel Operations Executive, Chef, Front Office Executive, F&B Manager, Cruise Hospitality Staff",
+        description: "The B.Sc. Hotel Management and Catering Science programme is a comprehensive undergraduate course designed to provide students with professional knowledge and practical skills in hospitality operations and management. The programme focuses on food production, bakery and confectionery, food & beverage service, front office operations, housekeeping management, hospitality marketing, customer relationship management, and hotel administration.\n\nStudents gain extensive practical exposure through laboratory training, industrial visits, internships, and industry interaction programmes, enabling them to understand real-time hospitality operations and global service standards. The course prepares graduates for rewarding careers in hotels, resorts, cruise lines, airlines, tourism, event management, and international hospitality organizations.\n\n**Career Prospects**\n\nGraduates of this program can pursue various career opportunities in the hospitality, tourism, catering, airline, and cruise industries, including positions such as:\n\n• Hotel Operations Executive\n• Chef / Culinary Professional\n• Front Office Executive\n• Food & Beverage Manager\n• Hospitality Entrepreneur\n• Cruise Line Hospitality Staff\n• Airline Catering Executive\n• Resort and Tourism Professional\n\n**Programme Highlights**\n\n• Comprehensive practical and hands-on hospitality training\n• Industry-oriented curriculum with modern hospitality practices\n• Internship and industrial exposure opportunities\n• Training in food production, bakery, and confectionery\n• Front office, housekeeping, and food & beverage service training\n• Communication, leadership, and personality development focus\n• Modern kitchen and hospitality laboratory facilities\n• Customer service and hospitality etiquette training\n• Skill development with entrepreneurship orientation\n• Career opportunities in hotels, resorts, airlines, cruise lines, and tourism sectors",
+        eligibility: "Candidates must have passed Higher Secondary Examination (10+2) from a recognized board.",
+        ageLimit: "No specific age limit",
+        medicalStandard: "General good health",
+        programHighlights: [
+          "Comprehensive practical and hands-on hospitality training",
+          "Industry-oriented curriculum with modern hospitality practices",
+          "Internship and industrial exposure opportunities",
+          "Training in food production, bakery, and confectionery",
+          "Front office, housekeeping, and food & beverage service training",
+          "Communication, leadership, and personality development focus",
+          "Modern kitchen and hospitality laboratory facilities",
+          "Customer service and hospitality etiquette training",
+          "Skill development with entrepreneurship orientation",
+          "Career opportunities in hotels, resorts, airlines, cruise lines, and tourism sectors"
+        ],
+        curriculumLink: '#'
+      },
+      {
+        id: "diploma-hotel-management",
+        name: "Diploma in Hotel Management and Catering Science",
+        category: "PG Diploma",
+        duration: "1 Year",
+        admission: "Merit-based",
+        careerPath: "Hotel Service Associate, Food Production Assistant, Restaurant Supervisor, Front Office Assistant, Catering Service Executive",
+        description: "The Diploma in Hotel Management and Catering Science is a professionally oriented programme aimed at providing foundational knowledge and practical training in hospitality and catering operations. The course focuses on core hospitality areas including food production, restaurant service, housekeeping operations, front office management, hygiene standards, and customer service excellence.\n\nDesigned with an industry-focused approach, the programme enables students to develop operational skills and professional confidence required for entry-level positions in the hospitality sector. The curriculum emphasizes practical learning, personality development, communication skills, and service excellence to meet the growing demands of the hospitality industry.\n\n**Career Prospects**\n\nStudents completing this diploma programme can pursue career opportunities in the hospitality, catering, tourism, airline, and cruise hospitality sectors, including positions such as:\n\n• Hotel Service Associate\n• Food Production Assistant\n• Restaurant Supervisor\n• Front Office Assistant\n• Housekeeping Associate\n• Catering Service Executive\n• Hospitality Support Staff\n\n**Programme Highlights**\n\n• Intensive practical and hands-on training\n• Industry-focused hospitality curriculum\n• Skill-based learning approach\n• Internship and industrial exposure opportunities\n• Communication and personality development training\n• Training in food production and service operations\n• Customer service and hospitality etiquette focus\n• Quick employability pathway in hospitality sectors\n• Experienced faculty and industry interaction sessions\n• Career opportunities in hotels, catering, tourism, and cruise hospitality",
+        eligibility: "Candidates possessing a Degree from a recognized University are eligible for admission.",
+        ageLimit: "No specific age limit",
+        medicalStandard: "General good health",
+        programHighlights: [
+          "Intensive practical and hands-on training",
+          "Industry-focused hospitality curriculum",
+          "Skill-based learning approach",
+          "Internship and industrial exposure opportunities",
+          "Communication and personality development training",
+          "Training in food production and service operations",
+          "Customer service and hospitality etiquette focus",
+          "Quick employability pathway in hospitality sectors",
+          "Experienced faculty and industry interaction sessions",
+          "Career opportunities in hotels, catering, tourism, and cruise hospitality"
+        ],
+        curriculumLink: '#'
+      },
+      {
+        id: "marine-catering",
+        name: "Marine Catering Programme",
+        category: "PG Diploma",
+        duration: "3 Months",
+        admission: "Merit-based with experience verification",
+        careerPath: "Cruise Catering Staff, Merchant Ship Catering Crew, Offshore Catering Professional",
+        description: "The Marine Catering Programme at AMET University is a specialized residential training programme designed to prepare hospitality professionals for rewarding careers in the maritime and cruise hospitality industry. The programme combines advanced catering training with mandatory STCW safety training to equip candidates with the professional, operational, and safety skills required to work onboard merchant vessels, cruise ships, offshore vessels, and international maritime hospitality sectors.\n\nThe curriculum focuses on maritime food production, galley operations, catering administration, hygiene and food safety, shipboard hospitality standards, customer service, and onboard operational procedures. The programme is designed in alignment with international maritime hospitality training standards followed across the global shipping industry.\n\n**Career Prospects**\n\nStudents completing this programme can pursue career opportunities in the maritime hospitality, cruise catering, offshore catering, and shipboard service sectors, including positions in:\n\n• Merchant Ships\n• Cruise Ships\n• Offshore Vessels\n• Passenger Ships\n• International Catering Operations\n• Marine Hospitality Services\n\n**Programme Highlights**\n\n• Specialized training in marine catering and shipboard hospitality\n• STCW mandatory safety training included\n• Practical training in galley and catering operations\n• International maritime hospitality standards-based curriculum\n• Training in hygiene, food safety, and onboard service procedures\n• Residential training with disciplined learning environment\n• Industry-oriented skill development and operational exposure\n• Career opportunities in merchant ships and cruise hospitality sectors\n• Personality development and customer service training\n• Global employability in maritime and offshore catering services",
+        eligibility: "Candidates must possess a Diploma or Degree qualification with a minimum of 2 years of experience in the hotel industry. Applicants should be 21 years of age or above.",
+        ageLimit: "21 years and above",
+        medicalStandard: "Fit for sea service per STCW medical standards",
+        programHighlights: [
+          "Specialized training in marine catering and shipboard hospitality",
+          "STCW mandatory safety training included",
+          "Practical training in galley and catering operations",
+          "International maritime hospitality standards-based curriculum",
+          "Training in hygiene, food safety, and onboard service procedures",
+          "Residential training with disciplined learning environment",
+          "Industry-oriented skill development and operational exposure",
+          "Career opportunities in merchant ships and cruise hospitality sectors",
+          "Personality development and customer service training",
+          "Global employability in maritime and offshore catering services"
         ],
         curriculumLink: '#'
       }

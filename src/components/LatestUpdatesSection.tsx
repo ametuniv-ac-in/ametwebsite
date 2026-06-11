@@ -5,6 +5,14 @@ import { Link } from 'react-router-dom';
 
 const updates = [
   {
+    title: 'Pre-PhD Thesis Presentation - Mr. A. Marimuthu (27.05.2026)',
+    category: 'Pre-PhD',
+    icon: Users,
+    href: '/documents/pre-phd-thesis-presentation-a-marimuthu.pdf',
+    isNew: true,
+    expiresOn: '2026-05-27',
+  },
+  {
     title: 'Pre-PhD Thesis Presentation - Mr. A. Vidya (22.05.2026)',
     category: 'Pre-PhD',
     icon: Users,

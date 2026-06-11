@@ -160,6 +160,8 @@ import ARIIA from './pages/ARIIA';
 import Career from './pages/Career';
 import MoesDomTechnicalAssistant from './pages/career/MoesDomTechnicalAssistant';
 import MoesDomProjectAssociate from './pages/career/MoesDomProjectAssociate';
+import ViceChancellorRecruitment from './pages/career/ViceChancellorRecruitment';
+import DirectorResearch from './pages/career/DirectorResearch';
 import AdmissionsAnnouncement from './pages/admissions/Announcement';
 import LatestUpdates from './pages/LatestUpdates';
 import RTI from './pages/RTI';
@@ -363,6 +365,8 @@ function App() {
         <Route path="/career" element={<Career />} />
         <Route path="/career/moes-dom-technical-assistant" element={<MoesDomTechnicalAssistant />} />
         <Route path="/career/moes-dom-project-associate" element={<MoesDomProjectAssociate />} />
+        <Route path="/career/vice-chancellor-recruitment" element={<ViceChancellorRecruitment />} />
+        <Route path="/career/director-research" element={<DirectorResearch />} />
         <Route path="/latest-updates" element={<LatestUpdates />} />
         <Route path="/online-payment-details" element={<OnlinePaymentDetails />} />
         <Route path="/rti" element={<RTI />} />

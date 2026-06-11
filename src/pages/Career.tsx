@@ -27,6 +27,72 @@ const Career = () => {
             <h2 className="text-2xl font-semibold text-aemet-navy mb-6">Current Vacancies</h2>
             
             <div className="space-y-6">
+              {/* Director (Research) - AMET-MSRC */}
+              <Card className="border-aemet-blue/20 hover:shadow-lg transition-all duration-300">
+                <CardContent className="p-6">
+                  <div className="space-y-6">
+                    <div className="flex items-start gap-4">
+                      <div className="bg-aemet-navy/5 p-3 rounded-full flex-shrink-0">
+                        <Briefcase className="h-6 w-6 text-aemet-blue" />
+                      </div>
+                      <div className="flex-grow">
+                        <div className="flex flex-wrap items-center gap-2 mb-2">
+                          <h3 className="text-xl font-semibold text-aemet-navy">
+                            Director (Research)
+                          </h3>
+                          <span className="bg-red-100 text-red-700 text-xs font-semibold px-2 py-1 rounded">
+                            New
+                          </span>
+                        </div>
+                        <p className="text-sm text-aemet-blue font-medium mb-3">
+                          AMET Maritime and Shipping Research Centre (AMET–MSRC)
+                        </p>
+                        <p className="text-gray-600 mb-2">
+                          AMET University invites applications from visionary, research-focused leaders to head the newly established AMET–MSRC. Global applications welcome.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-wrap gap-3">
+                      <Button asChild className="bg-aemet-blue hover:bg-aemet-navy transition-colors">
+                        <a href="/career/director-research">
+                          View Details
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Vice Chancellor Vacancy */}
+              <Card className="border-aemet-blue/20 hover:shadow-lg transition-all duration-300">
+                <CardContent className="p-6">
+                  <div className="space-y-6">
+                    <div className="flex items-start gap-4">
+                      <div className="bg-aemet-navy/5 p-3 rounded-full flex-shrink-0">
+                        <Briefcase className="h-6 w-6 text-aemet-blue" />
+                      </div>
+                      <div className="flex-grow">
+                        <h3 className="text-xl font-semibold text-aemet-navy mb-2">
+                          Vice Chancellor
+                        </h3>
+                        <p className="text-gray-600 mb-2">
+                          The Search cum Selection Committee invites applications from eligible candidates, as per UGC norms, for the post of Vice Chancellor, AMET Deemed to be University.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-wrap gap-3">
+                      <Button asChild className="bg-aemet-blue hover:bg-aemet-navy transition-colors">
+                        <a href="/career/vice-chancellor-recruitment">
+                          View Details
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
               {/* MoES-DOM Project Associate – I Vacancy */}
               <Card className="border-aemet-blue/20 hover:shadow-lg transition-all duration-300">
                 <CardContent className="p-6">

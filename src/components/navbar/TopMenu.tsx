@@ -28,6 +28,12 @@ const TopMenu = () => {
   
   const isMobile = useIsMobile();
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const NewBadge = () => (
+    <span className="ml-0.5 inline-flex items-center bg-red-600 text-white text-[8px] font-bold uppercase px-1 py-[1px] rounded animate-pulse leading-none align-super">
+      New
+    </span>
+  );
   
   if (isMobile) {
     return (
@@ -72,6 +78,7 @@ const TopMenu = () => {
                       )}
                     >
                       {key}
+                      {key === 'Career' && <NewBadge />}
                     </Link>
                   )
                 ))}
@@ -109,6 +116,7 @@ const TopMenu = () => {
                     )}
                   >
                     {key}
+                    {key === 'Career' && <NewBadge />}
                   </Link>
                 )}
               </div>

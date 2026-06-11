@@ -74,7 +74,7 @@ const Home: React.FC = () => {
                     className="gap-2"
                   >
                     <a
-                      href="/documents/Broucher-Global-Maritime-Summit.pdf"
+                      href="/documents/Brochure-Global-Maritime-Summit-2026.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -83,7 +83,7 @@ const Home: React.FC = () => {
                   </Button>
                   <Button asChild variant="outline" size="sm" className="gap-2">
                     <a
-                      href="/documents/Broucher-Global-Maritime-Summit.pdf"
+                      href="/documents/Brochure-Global-Maritime-Summit-2026.pdf"
                       download
                     >
                       <Download className="h-4 w-4" /> Download PDF

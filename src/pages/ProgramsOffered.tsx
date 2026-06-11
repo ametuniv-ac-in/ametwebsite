@@ -56,6 +56,9 @@ const ProgramsOffered = () => {
       { name: "B.Sc. Medical Lab Technology", link: "/faculty/allied-health-sciences/department/allied-health-dept/program/bsc-hons-mlt" },
       { name: "B.Sc. Hospital Management", link: "/faculty/allied-health-sciences/department/allied-health-dept/program/bsc-hospital-management" },
       { name: "Bachelor of Physiotherapy", link: "/faculty/allied-health-sciences/department/allied-health-dept/program/bsc-hons-physiotherapy" },
+      { name: "B.Sc. Hotel Management and Catering Science", link: "/faculty/management/department/hotel-management/program/bsc-hotel-management" },
+      { name: "Diploma in Hotel Management and Catering Science", link: "/faculty/management/department/hotel-management/program/diploma-hotel-management" },
+      { name: "Marine Catering Programme", link: "/faculty/management/department/hotel-management/program/marine-catering" },
     ],
     pg: [
       { name: "M.E. Naval Architecture and Offshore Engineering", link: "/faculty/engineering-tech/department/naval-architecture/program/me-naval" },

@@ -6,6 +6,10 @@ import { FileText, Download, Eye } from 'lucide-react';
 
 const announcements = [
   {
+    title: 'Notification for Pre-PhD Thesis Presentation of Mr. A. Marimuthu',
+    href: '/documents/pre-phd-thesis-presentation-a-marimuthu.pdf',
+  },
+  {
     title: 'Notification for Pre-PhD Thesis Presentation of Mr. A. Vidya',
     href: '/documents/pre-phd-thesis-presentation-a-vidya.pdf',
   },

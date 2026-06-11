@@ -14,6 +14,12 @@ import {
 
 const updates = [
   {
+    title: 'Pre-PhD Thesis Presentation - Mr. A. Marimuthu (27.05.2026)',
+    category: 'Pre-PhD',
+    icon: Users,
+    href: '/documents/pre-phd-thesis-presentation-a-marimuthu.pdf',
+  },
+  {
     title: 'Pre-PhD Thesis Presentation - Mr. A. Vidya (22.05.2026)',
     category: 'Pre-PhD',
     icon: Users,
